@@ -1,0 +1,22 @@
+site_name: GitHub.io Test
+site_url: https://joepjisc.github.io/github-io-test/
+repo_url: https://github.com/joepjisc/github-io-test/
+repo_name: GitHub
+edit_uri: blob/main/docs/
+site_description: A simple test of deploying a site to github.io
+site_author: JoePJisc
+copyright: 2024 Jisc Services Limited
+nav:
+  - Home: index.md
+  - User Guide:
+    - Home: index.md
+    - Syntax:
+      - Highlighting: highlight.md
+      - Examples: examples.md
+  - More Detail:
+    - More Examples: sub/more.md
+theme: 
+  name: readthedocs
+  hljs_languages:
+    - apache
+    - dockerfile
